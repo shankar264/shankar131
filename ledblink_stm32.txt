@@ -1,0 +1,10 @@
+void setup() {
+  pinMode(PC13, OUTPUT); // Set the LED pin as output
+}
+
+void loop() {
+  digitalWrite(PC13, HIGH); // Turn the LED on
+  delay(1000); // Wait for 1000 milliseconds (1 second)
+  digitalWrite(PC13, LOW); // Turn the LED off
+  delay(1000); // Wait for 1000 milliseconds (1 second)
+}
